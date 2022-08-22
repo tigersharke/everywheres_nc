@@ -1,0 +1,58 @@
+========================================================================
+
+             \                           /\
+              \                         /  \
+          /\   \     /\    |\      /   /    \    /\    |\     /
+         |  \   |   /  \   | \    /   |         /  \   | \   /
+         |   \  |  |    |  |  |  |__  |        |    |  | /  |__
+          \   \/   |    |  |  |  |     \    /  |    |  |/   |
+           \        \  /   | /    \     \  /    \  /   |\    \
+            \        \/    |/      \     \/      \/    | \    \
+
+========================================================================
+             NodeCore - Minetest's top original voxel game
+                about emergent mechanics and exploration
+------------------------------------------------------------------------
+
+A surreal dream-world where everything is possible but nothing is easy.
+Peaceful and Zen.  Brutally obstinate.  Prepare to unlearn everything
+you thought you knew about voxel sandbox games.
+
+Visit the Minetest ContentDB Listing (below) for more details.
+
+------------------------------------------------------------------------
+
+(C) by Aaron Suen <warr1024@gmail.com> (and other contributors)
+MIT License (http://www.opensource.org/licenses/MIT)
+See included LICENSE file for full details and credits
+
+Minetest ContentDB Listing:
+	https://content.minetest.net/packages/Warr1024/nodecore/
+
+GitLab:
+	https://gitlab.com/sztest/nodecore
+
+Chat Networks (all bridged):
+	Discord:
+		https://discord.gg/NNYeF6f
+	Matrix:
+		#nodecore:matrix.org
+	IRC:
+		#nodecore on irc.libera.chat
+
+Semi-Unofficial Wiki:
+	https://nodecore.mine.nu/
+
+Minetest Forum Topic:
+	https://forum.minetest.net/viewtopic.php?t=24857
+
+------------------------------------------------------------------------
+========================================================================
+
+
+This texture pack is presently a simple copy of that which is provided
+by the Alpha Nodecore Game as installed via minetest client.  Intent is
+to eventually make a complete nodecorian minetest texture, but until
+then this texture pack can serve as a handy local override as needed.
+
+--TurnipHarald
