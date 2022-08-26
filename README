@@ -55,4 +55,14 @@ by the Alpha Nodecore Game as installed via minetest client.  Intent is
 to eventually make a complete nodecorian minetest texture, but until
 then this texture pack can serve as a handy local override as needed.
 
+* There are two options for a three-tine rake texture, a triangular, 
+  and a pitchforky style. Both included, rename or copy the desired 
+  texture as below.
+
+  nc_lode_rake-pfk.png OR nc_lode_rake-tri.png
+  Becomes: nc_lode_rake.png
+
+  nc_woodwork_rake-pfk.png OR nc_woodwork_rake-tri.png
+  Becomes: nc_woodwork_rake.png
+
 --TurnipHarald
