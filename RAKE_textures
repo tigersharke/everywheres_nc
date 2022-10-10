@@ -1,0 +1,7 @@
+In order to use the rake texture instead of the unknown texture, you will need to rename the files,
+choices -pfk is pitchforky and -tri is triangular.
+
+Change	nc_lode_rake-pfk.png OR nc_lode_rake-tri.png TO nc_lode_rake.png
+
+	nc_woodwork_rake-pfk.png OR nc_woodwork_rake-tri.png TO nc_woodwork_rake.png
+
