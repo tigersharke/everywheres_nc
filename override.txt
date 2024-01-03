@@ -1,0 +1,1639 @@
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_fire__ash * nc_fire_ash.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__cobble * nc_terrain_gravel.png^nc_terrain_cobble.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__cobble_loose * nc_terrain_gravel.png^nc_terrain_cobble.png^nc_api_loose.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__dirt * nc_terrain_dirt.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__dirt_loose * nc_terrain_dirt.png^nc_api_loose.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__gravel * nc_terrain_gravel.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__gravel_loose * nc_terrain_gravel.png^nc_api_loose.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__sand * nc_terrain_sand.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__sand_loose * nc_terrain_sand.png^nc_api_loose.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_terrain__stone * nc_terrain_stone.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_items:bulk_nc_tree__leaves_loose * nc_tree_leaves_dry.png^[multiply:#a0a0a0^nc_tree_leaves_dry.png
+
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_player_hand:hand * nc_player_model_base.png
+
+# Active Lens
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:lens_on * nc_optics_glass_frost.png^nc_optics_port_input.png^nc_optics_port_output.png
+nc_optics:lens_on bottom nc_optics_glass_frost.png^nc_optics_port_active.png^nc_optics_port_output.png
+nc_optics:lens_on top nc_optics_glass_frost.png^(nc_optics_port_active.png^[opacity:96)
+
+# Active Prism
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:prism_on * nc_optics_glass_frost.png^nc_optics_port_wide.png^nc_optics_port_wide_act.png
+nc_optics:prism_on bottom nc_optics_glass_frost.png^nc_optics_port_active.png^nc_optics_port_output.png
+nc_optics:prism_on top nc_optics_glass_frost.png^(nc_optics_port_active.png^[opacity:96)
+
+# Admin Tool
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_player_hand:super * [combine:1x1^[noalpha^[colorize:#ffffff:255
+nc_player_hand:super inventory nc_player_hand_admintool.png
+
+# Adobe
+nc_concrete:adobe * nc_concrete_adobe.png
+
+# Adobe Bricks
+nc_stonework:bricks_adobe * nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:240)
+
+# Adobe Mix
+nc_concrete:mud * nc_terrain_dirt.png^(nc_fire_ash.png^[mask:nc_concrete_mask.png)
+
+# Aggregate
+nc_concrete:aggregate * nc_terrain_gravel.png^(nc_fire_ash.png^[mask:nc_concrete_mask.png)
+
+# Amalgamation
+nc_igneous:amalgam * [combine:16x512:0,0=nc_terrain_lava.png:0,0=nc_terrain_cobble.png:0,16=nc_terrain_cobble.png:0,32=nc_terrain_cobble.png:0,48=nc_terrain_cobble.png:0,64=nc_terrain_cobble.png:0,80=nc_terrain_cobble.png:0,96=nc_terrain_cobble.png:0,112=nc_terrain_cobble.png:0,128=nc_terrain_cobble.png:0,144=nc_terrain_cobble.png:0,160=nc_terrain_cobble.png:0,176=nc_terrain_cobble.png:0,192=nc_terrain_cobble.png:0,208=nc_terrain_cobble.png:0,224=nc_terrain_cobble.png:0,240=nc_terrain_cobble.png:0,256=nc_terrain_cobble.png:0,272=nc_terrain_cobble.png:0,288=nc_terrain_cobble.png:0,304=nc_terrain_cobble.png:0,320=nc_terrain_cobble.png:0,336=nc_terrain_cobble.png:0,352=nc_terrain_cobble.png:0,368=nc_terrain_cobble.png:0,384=nc_terrain_cobble.png:0,400=nc_terrain_cobble.png:0,416=nc_terrain_cobble.png:0,432=nc_terrain_cobble.png:0,448=nc_terrain_cobble.png:0,464=nc_terrain_cobble.png:0,480=nc_terrain_cobble.png:0,496=nc_terrain_cobble.png
+
+# Annealed Lode
+nc_lode:block_annealed * nc_lode_annealed.png
+
+# Annealed Lode Adze
+nc_lode:adze_annealed inventory nc_lode_annealed.png^[mask:nc_lode_adze.png
+
+# Annealed Lode Bar
+nc_lode:bar_annealed * nc_lode_annealed.png
+
+# Annealed Lode Frame
+nc_lode:frame_annealed * nc_lode_annealed.png
+
+# Annealed Lode Hatchet
+nc_lode:tool_hatchet_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_hatchet.png)
+
+# Annealed Lode Hatchet Head
+nc_lode:toolhead_hatchet_annealed inventory nc_lode_annealed.png^[mask:nc_lode_toolhead_hatchet.png
+
+# Annealed Lode Ladder
+nc_lode:ladder_annealed * nc_lode_annealed.png
+
+# Annealed Lode Mallet
+nc_lode:tool_mallet_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_mallet.png)
+
+# Annealed Lode Mallet Head
+nc_lode:toolhead_mallet_annealed inventory nc_lode_annealed.png^[mask:nc_lode_toolhead_mallet.png
+
+# Annealed Lode Mattock
+nc_lode:tool_mattock_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_mattock.png)
+
+# Annealed Lode Mattock Head
+nc_lode:toolhead_mattock_annealed inventory nc_lode_annealed.png^[mask:nc_lode_toolhead_mattock.png
+
+# Annealed Lode Pick
+nc_lode:tool_pick_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_pick.png)
+
+# Annealed Lode Pick Head
+nc_lode:toolhead_pick_annealed inventory nc_lode_annealed.png^[mask:nc_lode_toolhead_pick.png
+
+# Annealed Lode Prill
+nc_lode:prill_annealed inventory nc_lode_annealed.png^[mask:nc_lode_mask_prill.png
+
+# Annealed Lode Rake
+nc_lode:rake_annealed inventory nc_lode_annealed.png^[mask:nc_lode_rake.png
+
+# Annealed Lode Rod
+nc_lode:rod_annealed * nc_lode_annealed.png
+
+# Annealed Lode Spade
+nc_lode:tool_spade_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_spade.png)
+
+# Annealed Lode Spade Head
+nc_lode:toolhead_spade_annealed inventory nc_lode_annealed.png^[mask:nc_lode_toolhead_spade.png
+
+# Annealed Lode Tongs
+nc_lode:tongs_annealed inventory nc_lode_annealed.png^[mask:nc_lode_tongs.png
+
+# Ash
+nc_fire:ash * nc_fire_ash.png
+
+# Ash Lump
+nc_fire:lump_ash inventory nc_fire_ash.png^[mask:nc_fire_lump.png
+
+# Azure Bell Flower
+nc_flora:flower_1_6 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#39849b)
+nc_flora:flower_1_6 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#39849b)
+nc_flora:flower_1_6 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#39849b)
+
+# Azure Cluster Flower
+nc_flora:flower_4_6 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#39849b)
+nc_flora:flower_4_6 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#39849b)
+nc_flora:flower_4_6 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#39849b)
+
+# Azure Cup Flower
+nc_flora:flower_2_6 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#39849b)
+nc_flora:flower_2_6 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#39849b)
+nc_flora:flower_2_6 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#39849b)
+
+# Azure Rosette Flower
+nc_flora:flower_3_6 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#39849b)
+nc_flora:flower_3_6 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#39849b)
+nc_flora:flower_3_6 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#39849b)
+
+# Azure Star Flower
+nc_flora:flower_5_6 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+nc_flora:flower_5_6 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+nc_flora:flower_5_6 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+
+# Bindy Adobe
+nc_concrete:concrete_adobe_bindy * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:56)
+
+# Bindy Cloudstone
+nc_concrete:concrete_cloudstone_bindy * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[invert:rgb^[opacity:32)
+
+# Bindy Pliant Adobe
+nc_concrete:concrete_adobe_bindy_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Bindy Pliant Cloudstone
+nc_concrete:concrete_cloudstone_bindy_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Bindy Pliant Sandstone
+nc_concrete:concrete_sandstone_bindy_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Bindy Pliant Stone
+nc_concrete:terrain_stone_bindy_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Bindy Pliant Tarstone
+nc_concrete:concrete_coalstone_bindy_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Bindy Sandstone
+nc_concrete:concrete_sandstone_bindy * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:80)
+
+# Bindy Stone
+nc_concrete:terrain_stone_bindy * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:64)
+
+# Bindy Tarstone
+nc_concrete:concrete_coalstone_bindy * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bindy.png^[opacity:40)
+
+# Black Bell Flower
+nc_flora:flower_1_9 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#202020)
+nc_flora:flower_1_9 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#202020)
+nc_flora:flower_1_9 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#202020)
+
+# Black Cluster Flower
+nc_flora:flower_4_9 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#202020)
+nc_flora:flower_4_9 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#202020)
+nc_flora:flower_4_9 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#202020)
+
+# Black Cup Flower
+nc_flora:flower_2_9 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#202020)
+nc_flora:flower_2_9 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#202020)
+nc_flora:flower_2_9 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#202020)
+
+# Black Rosette Flower
+nc_flora:flower_3_9 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#202020)
+nc_flora:flower_3_9 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#202020)
+nc_flora:flower_3_9 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#202020)
+
+# Black Star Flower
+nc_flora:flower_5_9 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+nc_flora:flower_5_9 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+nc_flora:flower_5_9 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+
+# Blue Bell Flower
+nc_flora:flower_1_7 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#2424fe)
+nc_flora:flower_1_7 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#2424fe)
+nc_flora:flower_1_7 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#2424fe)
+
+# Blue Cluster Flower
+nc_flora:flower_4_7 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#2424fe)
+nc_flora:flower_4_7 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#2424fe)
+nc_flora:flower_4_7 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#2424fe)
+
+# Blue Cup Flower
+nc_flora:flower_2_7 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#2424fe)
+nc_flora:flower_2_7 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#2424fe)
+nc_flora:flower_2_7 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#2424fe)
+
+# Blue Rosette Flower
+nc_flora:flower_3_7 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#2424fe)
+nc_flora:flower_3_7 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#2424fe)
+nc_flora:flower_3_7 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#2424fe)
+
+# Blue Star Flower
+nc_flora:flower_5_7 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+nc_flora:flower_5_7 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+nc_flora:flower_5_7 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+
+# Bonded Adobe Brick Hinged Panel
+nc_doors:door_bricks_adobe_bonded front nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformR180)
+nc_doors:door_bricks_adobe_bonded back nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:16^[transformR180)
+nc_doors:door_bricks_adobe_bonded left nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:16)
+nc_doors:door_bricks_adobe_bonded right nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformI^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformI)
+nc_doors:door_bricks_adobe_bonded bottom nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformFX^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformFX)
+nc_doors:door_bricks_adobe_bonded top nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformR180)
+
+# Bonded Adobe Brick Panel
+nc_doors:panel_bricks_adobe_bonded front nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformR180
+nc_doors:panel_bricks_adobe_bonded back nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:16^[transformR180)
+nc_doors:panel_bricks_adobe_bonded left nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:16)
+nc_doors:panel_bricks_adobe_bonded right nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformI
+nc_doors:panel_bricks_adobe_bonded bottom nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformFX
+nc_doors:panel_bricks_adobe_bonded top nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformR180
+
+# Bonded Adobe Bricks
+nc_stonework:bricks_adobe_bonded * nc_concrete_adobe.png^(nc_stonework_bricks.png^[opacity:120)
+
+# Bonded Cloudstone Brick Hinged Panel
+nc_doors:door_bricks_cloudstone_bonded front nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_side_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformR180)
+nc_doors:door_bricks_cloudstone_bonded back nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^(nc_doors_hinge_scuff.png^[opacity:96^[transformR180)
+nc_doors:door_bricks_cloudstone_bonded left nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^(nc_doors_hinge_scuff.png^[opacity:96)
+nc_doors:door_bricks_cloudstone_bonded right nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_side_base.png^[transformI^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformI)
+nc_doors:door_bricks_cloudstone_bonded bottom nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_end_base.png^[transformFX^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformFX)
+nc_doors:door_bricks_cloudstone_bonded top nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_end_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformR180)
+
+# Bonded Cloudstone Brick Panel
+nc_doors:panel_bricks_cloudstone_bonded front nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_side_base.png^[transformR180
+nc_doors:panel_bricks_cloudstone_bonded back nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^(nc_doors_hinge_scuff.png^[opacity:96^[transformR180)
+nc_doors:panel_bricks_cloudstone_bonded left nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^(nc_doors_hinge_scuff.png^[opacity:96)
+nc_doors:panel_bricks_cloudstone_bonded right nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_side_base.png^[transformI
+nc_doors:panel_bricks_cloudstone_bonded bottom nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_end_base.png^[transformFX
+nc_doors:panel_bricks_cloudstone_bonded top nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)^nc_doors_hinge_end_base.png^[transformR180
+
+# Bonded Cloudstone Bricks
+nc_stonework:bricks_cloudstone_bonded * nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:64)
+
+# Bonded Sandstone Brick Hinged Panel
+nc_doors:door_bricks_sandstone_bonded front nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_side_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformR180)
+nc_doors:door_bricks_sandstone_bonded back nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^(nc_doors_hinge_scuff.png^[opacity:64^[transformR180)
+nc_doors:door_bricks_sandstone_bonded left nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^(nc_doors_hinge_scuff.png^[opacity:64)
+nc_doors:door_bricks_sandstone_bonded right nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_side_base.png^[transformI^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformI)
+nc_doors:door_bricks_sandstone_bonded bottom nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_end_base.png^[transformFX^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformFX)
+nc_doors:door_bricks_sandstone_bonded top nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_end_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformR180)
+
+# Bonded Sandstone Brick Panel
+nc_doors:panel_bricks_sandstone_bonded front nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_side_base.png^[transformR180
+nc_doors:panel_bricks_sandstone_bonded back nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^(nc_doors_hinge_scuff.png^[opacity:64^[transformR180)
+nc_doors:panel_bricks_sandstone_bonded left nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^(nc_doors_hinge_scuff.png^[opacity:64)
+nc_doors:panel_bricks_sandstone_bonded right nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_side_base.png^[transformI
+nc_doors:panel_bricks_sandstone_bonded bottom nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_end_base.png^[transformFX
+nc_doors:panel_bricks_sandstone_bonded top nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)^nc_doors_hinge_end_base.png^[transformR180
+
+# Bonded Sandstone Bricks
+nc_stonework:bricks_sandstone_bonded * nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:96)
+
+# Bonded Stone Brick Hinged Panel
+nc_doors:door_bricks_stone_bonded front nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformR180)
+nc_doors:door_bricks_stone_bonded back nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:24^[transformR180)
+nc_doors:door_bricks_stone_bonded left nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:24)
+nc_doors:door_bricks_stone_bonded right nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformI^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformI)
+nc_doors:door_bricks_stone_bonded bottom nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformFX^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformFX)
+nc_doors:door_bricks_stone_bonded top nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformR180)
+
+# Bonded Stone Brick Panel
+nc_doors:panel_bricks_stone_bonded front nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformR180
+nc_doors:panel_bricks_stone_bonded back nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:24^[transformR180)
+nc_doors:panel_bricks_stone_bonded left nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^(nc_doors_hinge_scuff.png^[opacity:24)
+nc_doors:panel_bricks_stone_bonded right nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_side_base.png^[transformI
+nc_doors:panel_bricks_stone_bonded bottom nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformFX
+nc_doors:panel_bricks_stone_bonded top nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)^nc_doors_hinge_end_base.png^[transformR180
+
+# Bonded Stone Bricks
+nc_stonework:bricks_stone_bonded * nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:120)
+
+# Bonded Tarstone Brick Hinged Panel
+nc_doors:door_bricks_coalstone_bonded front nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_side_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformR180)
+nc_doors:door_bricks_coalstone_bonded back nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^(nc_doors_hinge_scuff.png^[opacity:16^[transformR180)
+nc_doors:door_bricks_coalstone_bonded left nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^(nc_doors_hinge_scuff.png^[opacity:16)
+nc_doors:door_bricks_coalstone_bonded right nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_side_base.png^[transformI^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformI)
+nc_doors:door_bricks_coalstone_bonded bottom nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_end_base.png^[transformFX^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformFX)
+nc_doors:door_bricks_coalstone_bonded top nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_end_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformR180)
+
+# Bonded Tarstone Brick Panel
+nc_doors:panel_bricks_coalstone_bonded front nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_side_base.png^[transformR180
+nc_doors:panel_bricks_coalstone_bonded back nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^(nc_doors_hinge_scuff.png^[opacity:16^[transformR180)
+nc_doors:panel_bricks_coalstone_bonded left nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^(nc_doors_hinge_scuff.png^[opacity:16)
+nc_doors:panel_bricks_coalstone_bonded right nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_side_base.png^[transformI
+nc_doors:panel_bricks_coalstone_bonded bottom nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_end_base.png^[transformFX
+nc_doors:panel_bricks_coalstone_bonded top nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)^nc_doors_hinge_end_base.png^[transformR180
+
+# Bonded Tarstone Bricks
+nc_stonework:bricks_coalstone_bonded * nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:160)
+
+# Boxy Adobe
+nc_concrete:concrete_adobe_boxy * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:56)
+
+# Boxy Cloudstone
+nc_concrete:concrete_cloudstone_boxy * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[invert:rgb^[opacity:32)
+
+# Boxy Pliant Adobe
+nc_concrete:concrete_adobe_boxy_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Boxy Pliant Cloudstone
+nc_concrete:concrete_cloudstone_boxy_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Boxy Pliant Sandstone
+nc_concrete:concrete_sandstone_boxy_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Boxy Pliant Stone
+nc_concrete:terrain_stone_boxy_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Boxy Pliant Tarstone
+nc_concrete:concrete_coalstone_boxy_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Boxy Sandstone
+nc_concrete:concrete_sandstone_boxy * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:80)
+
+# Boxy Stone
+nc_concrete:terrain_stone_boxy * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:64)
+
+# Boxy Tarstone
+nc_concrete:concrete_coalstone_boxy * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_boxy.png^[opacity:40)
+
+# Braced Wooden Form
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_woodwork:form_braced * nc_tree_tree_side.png^[mask:nc_woodwork_form_braced.png
+
+# Bricky Adobe
+nc_concrete:concrete_adobe_bricky * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:56)
+
+# Bricky Cloudstone
+nc_concrete:concrete_cloudstone_bricky * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[invert:rgb^[opacity:32)
+
+# Bricky Pliant Adobe
+nc_concrete:concrete_adobe_bricky_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Bricky Pliant Cloudstone
+nc_concrete:concrete_cloudstone_bricky_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Bricky Pliant Sandstone
+nc_concrete:concrete_sandstone_bricky_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Bricky Pliant Stone
+nc_concrete:terrain_stone_bricky_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Bricky Pliant Tarstone
+nc_concrete:concrete_coalstone_bricky_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Bricky Sandstone
+nc_concrete:concrete_sandstone_bricky * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:80)
+
+# Bricky Stone
+nc_concrete:terrain_stone_bricky * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:64)
+
+# Bricky Tarstone
+nc_concrete:concrete_coalstone_bricky * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_bricky.png^[opacity:40)
+
+# Burning Embers
+nc_fire:ember1 * nc_fire_ash.png^(nc_fire_coal_1.png^[opacity:181)^(nc_fire_ember_1.png^[opacity:181)^[noalpha
+nc_fire:ember2 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_ember_1.png^[noalpha
+nc_fire:ember3 * nc_fire_ash.png^nc_fire_coal_1.png^(nc_fire_coal_2.png^[opacity:181)^nc_fire_ember_1.png^(nc_fire_ember_2.png^[opacity:181)^[noalpha
+nc_fire:ember4 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^nc_fire_ember_2.png^[noalpha
+nc_fire:ember5 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^(nc_fire_coal_3.png^[opacity:181)^nc_fire_ember_2.png^(nc_fire_ember_3.png^[opacity:181)^[noalpha
+nc_fire:ember6 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^nc_fire_coal_3.png^nc_fire_ember_3.png^[noalpha
+nc_fire:ember7 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^nc_fire_coal_3.png^(nc_fire_coal_4.png^[opacity:181)^nc_fire_ember_3.png^(nc_fire_ember_4.png^[opacity:181)^[noalpha
+nc_fire:ember8 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^nc_fire_coal_3.png^nc_fire_coal_4.png^nc_fire_ember_4.png^[noalpha
+
+# Cav Charcoal Glyph
+nc_writing:glyph1 * [combine:1x1
+nc_writing:glyph1 top nc_fire_coal_4.png^[mask:nc_writing_glyph_cav.png
+
+# Charcoal
+nc_fire:coal1 * nc_fire_ash.png^(nc_fire_coal_1.png^[opacity:181)^[noalpha
+nc_fire:coal2 * nc_fire_ash.png^nc_fire_coal_1.png^[noalpha
+nc_fire:coal3 * nc_fire_ash.png^nc_fire_coal_1.png^(nc_fire_coal_2.png^[opacity:181)^[noalpha
+nc_fire:coal4 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^[noalpha
+nc_fire:coal5 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^(nc_fire_coal_3.png^[opacity:181)^[noalpha
+nc_fire:coal6 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^nc_fire_coal_3.png^[noalpha
+nc_fire:coal7 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^nc_fire_coal_3.png^(nc_fire_coal_4.png^[opacity:181)^[noalpha
+nc_fire:coal8 * nc_fire_ash.png^nc_fire_coal_1.png^nc_fire_coal_2.png^nc_fire_coal_3.png^nc_fire_coal_4.png^[noalpha
+
+# Charcoal Lump
+nc_fire:lump_coal inventory nc_fire_coal_4.png^[mask:nc_fire_lump.png
+
+# Chromatic Glass
+nc_optics:glass_opaque * nc_optics_glass_frost.png
+
+# Clear Glass
+nc_optics:glass * nc_optics_glass_glare.png
+nc_optics:glass top nc_optics_glass_glare.png^nc_optics_glass_edges.png
+
+# Clear Glass Case
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:shelf * nc_optics_glass_edges.png^(nc_tree_tree_side.png^[mask:nc_optics_tank_mask.png)
+nc_optics:shelf bottom nc_optics_glass_glare.png^nc_optics_glass_edges.png^(nc_tree_tree_side.png^[mask:nc_optics_tank_mask.png)
+nc_optics:shelf top nc_optics_glass_glare.png^nc_optics_glass_edges.png^(nc_tree_tree_side.png^[mask:nc_optics_tank_mask.png)
+
+# Cloudstone
+nc_concrete:cloudstone * nc_concrete_cloudstone.png
+
+# Cloudstone Bricks
+nc_stonework:bricks_cloudstone * nc_concrete_cloudstone.png^(nc_stonework_bricks.png^[opacity:128)
+
+# Cobble
+nc_terrain:cobble * nc_terrain_gravel.png^nc_terrain_cobble.png
+nc_terrain:dungeon_cobble * nc_terrain_gravel.png^nc_terrain_cobble.png
+nc_terrain:dungeon_cobble_alt * nc_terrain_gravel.png^nc_terrain_cobble.png
+nc_terrain:dungeon_cobble_stair * nc_terrain_gravel.png^nc_terrain_cobble.png
+
+# Cobble Hinged Panel
+nc_doors:door_cobble front nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_side_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformR180)
+nc_doors:door_cobble back nc_terrain_gravel.png^nc_terrain_cobble.png^(nc_doors_hinge_scuff.png^[opacity:56^[transformR180)
+nc_doors:door_cobble left nc_terrain_gravel.png^nc_terrain_cobble.png^(nc_doors_hinge_scuff.png^[opacity:56)
+nc_doors:door_cobble right nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_side_base.png^[transformI^((nc_lode_tempered.png)^[mask:nc_doors_hinge_side_mask.png^[transformI)
+nc_doors:door_cobble bottom nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_end_base.png^[transformFX^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformFX)
+nc_doors:door_cobble top nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_end_base.png^[transformR180^((nc_lode_tempered.png)^[mask:nc_doors_hinge_end_mask.png^[transformR180)
+
+# Cobble Panel
+nc_doors:panel_cobble front nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_side_base.png^[transformR180
+nc_doors:panel_cobble back nc_terrain_gravel.png^nc_terrain_cobble.png^(nc_doors_hinge_scuff.png^[opacity:56^[transformR180)
+nc_doors:panel_cobble left nc_terrain_gravel.png^nc_terrain_cobble.png^(nc_doors_hinge_scuff.png^[opacity:56)
+nc_doors:panel_cobble right nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_side_base.png^[transformI
+nc_doors:panel_cobble bottom nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_end_base.png^[transformFX
+nc_doors:panel_cobble top nc_terrain_gravel.png^nc_terrain_cobble.png^nc_doors_hinge_end_base.png^[transformR180
+
+# Cracked Stone
+nc_lode:stone_cracked * nc_terrain_stone.png^nc_lode_stone_cracked.png
+
+# Crude Glass
+nc_optics:glass_crude * nc_optics_glass_crude.png
+nc_optics:glass_crude top nc_optics_glass_crude.png^nc_optics_glass_edges.png
+
+# Dirt
+nc_terrain:dirt * nc_terrain_dirt.png
+
+# Dry Rush
+nc_flora:rush_dry * nc_flora_rush_side_dry.png
+nc_flora:rush_dry inventory nc_flora_rush_inv_dry.png
+nc_flora:rush_dry wield nc_flora_rush_inv_dry.png
+
+# Eggcorn
+nc_tree:eggcorn * nc_tree_eggcorn.png
+nc_tree:eggcorn inventory [combine:24x24:4,4=nc_tree_eggcorn.png\^[resize\:16x16
+
+# Fire
+nc_fire:fire * nc_fire_fire.png
+nc_fire:fire_burst * nc_fire_fire.png
+
+# Float Glass
+nc_optics:glass_float * [combine:16x16
+nc_optics:glass_float top nc_optics_glass_edges.png
+
+# Float Glass Case
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:shelf_float * nc_optics_glass_edges.png^(nc_tree_tree_side.png^[mask:nc_optics_tank_mask.png)
+
+# Flux
+nc_lux:flux_flowing * nc_lux_base.png^[opacity:64
+nc_lux:flux_source * nc_lux_base.png^[opacity:64
+
+# Fot Charcoal Glyph
+nc_writing:glyph6 * [combine:1x1
+nc_writing:glyph6 top nc_fire_coal_4.png^[mask:nc_writing_glyph_fot.png
+
+# Gated Prism
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:prism_gated * nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_input.png
+nc_optics:prism_gated top nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_output.png
+
+# Geq Charcoal Glyph
+nc_writing:glyph9 * [combine:1x1
+nc_writing:glyph9 top nc_fire_coal_4.png^[mask:nc_writing_glyph_geq.png
+
+# Glowing Lode
+nc_lode:block_hot * nc_lode_hot.png
+
+# Glowing Lode Adze
+nc_lode:adze_hot inventory nc_lode_hot.png^[mask:nc_lode_adze.png
+
+# Glowing Lode Bar
+nc_lode:bar_hot * nc_lode_hot.png
+
+# Glowing Lode Cobble
+nc_lode:cobble_hot * nc_terrain_gravel.png^(nc_lode_hot.png^[mask:nc_lode_mask_molten.png)^nc_terrain_cobble.png
+nc_lode:cobble_hot bottom nc_lode_hot.png^nc_terrain_cobble.png
+nc_lode:cobble_hot top nc_terrain_gravel.png^nc_terrain_cobble.png
+
+# Glowing Lode Frame
+nc_lode:frame_hot * nc_lode_hot.png
+
+# Glowing Lode Hatchet Head
+nc_lode:toolhead_hatchet_hot inventory nc_lode_hot.png^[mask:nc_lode_toolhead_hatchet.png
+
+# Glowing Lode Ladder
+nc_lode:ladder_hot * nc_lode_hot.png
+
+# Glowing Lode Mallet Head
+nc_lode:toolhead_mallet_hot inventory nc_lode_hot.png^[mask:nc_lode_toolhead_mallet.png
+
+# Glowing Lode Mattock Head
+nc_lode:toolhead_mattock_hot inventory nc_lode_hot.png^[mask:nc_lode_toolhead_mattock.png
+
+# Glowing Lode Pick Head
+nc_lode:toolhead_pick_hot inventory nc_lode_hot.png^[mask:nc_lode_toolhead_pick.png
+
+# Glowing Lode Prill
+nc_lode:prill_hot inventory nc_lode_hot.png^[mask:nc_lode_mask_prill.png
+
+# Glowing Lode Rake
+nc_lode:rake_hot inventory nc_lode_hot.png^[mask:nc_lode_rake.png
+
+# Glowing Lode Rod
+nc_lode:rod_hot * nc_lode_hot.png
+
+# Glowing Lode Spade Head
+nc_lode:toolhead_spade_hot inventory nc_lode_hot.png^[mask:nc_lode_toolhead_spade.png
+
+# Glowing Lode Tongs
+nc_lode:tongs_hot inventory nc_lode_hot.png^[mask:nc_lode_tongs.png
+
+# Glued Active Lens
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:lens_on_glued * nc_optics_glass_frost.png^nc_optics_port_input.png^nc_optics_port_output.png^nc_optics_glued.png
+nc_optics:lens_on_glued bottom nc_optics_glass_frost.png^nc_optics_port_active.png^nc_optics_port_output.png^nc_optics_glued.png
+nc_optics:lens_on_glued top nc_optics_glass_frost.png^(nc_optics_port_active.png^[opacity:96)^nc_optics_glued.png
+
+# Glued Active Prism
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:prism_on_glued * nc_optics_glass_frost.png^nc_optics_port_wide.png^nc_optics_port_wide_act.png^nc_optics_glued.png
+nc_optics:prism_on_glued bottom nc_optics_glass_frost.png^nc_optics_port_active.png^nc_optics_port_output.png^nc_optics_glued.png
+nc_optics:prism_on_glued top nc_optics_glass_frost.png^(nc_optics_port_active.png^[opacity:96)^nc_optics_glued.png
+
+# Glued Gated Prism
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:prism_gated_glued * nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_input.png^nc_optics_glued.png
+nc_optics:prism_gated_glued top nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_output.png^nc_optics_glued.png
+
+# Glued Lens
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:lens_glued * nc_optics_glass_frost.png^nc_optics_port_input.png^nc_optics_glued.png
+nc_optics:lens_glued bottom nc_optics_glass_frost.png^nc_optics_port_output.png^nc_optics_glued.png
+nc_optics:lens_glued top nc_optics_glass_frost.png^nc_optics_glued.png
+
+# Glued Prism
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:prism_glued * nc_optics_glass_frost.png^nc_optics_port_wide.png^nc_optics_glued.png
+nc_optics:prism_glued bottom nc_optics_glass_frost.png^nc_optics_port_output.png^nc_optics_glued.png
+nc_optics:prism_glued top nc_optics_glass_frost.png^nc_optics_glued.png
+
+# Glued Shining Lens
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:lens_glow_glued * nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_active.png^nc_optics_glued.png
+nc_optics:lens_glow_glued bottom nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_input.png^nc_optics_glued.png
+nc_optics:lens_glow_glued top nc_optics_glass_frost.png^nc_optics_shine_side.png^nc_optics_glued.png
+nc_optics:lens_glow_start_glued * nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_active.png^nc_optics_glued.png
+nc_optics:lens_glow_start_glued bottom nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_input.png^nc_optics_glued.png
+nc_optics:lens_glow_start_glued top nc_optics_glass_frost.png^nc_optics_shine_side.png^nc_optics_glued.png
+
+# Grass
+nc_terrain:dirt_with_grass * nc_terrain_dirt.png^(nc_terrain_grass_top.png^[mask:nc_terrain_grass_sidemask.png)
+nc_terrain:dirt_with_grass bottom nc_terrain_dirt.png
+nc_terrain:dirt_with_grass top nc_terrain_grass_top.png
+
+# Gravel
+nc_terrain:gravel * nc_terrain_gravel.png
+
+# Graveled Adze
+nc_stonework:adze inventory nc_woodwork_adze.png^nc_stonework_tip_adze.png
+
+# Growing Leaves
+nc_tree:leaves_bud * nc_tree_leaves.png^nc_tree_leaves_bud.png^[multiply:#a0a0a0^nc_tree_leaves.png^nc_tree_leaves_bud.png
+
+# Growing Tree Trunk
+nc_tree:tree_bud * nc_tree_bud_side.png
+nc_tree:tree_bud bottom nc_tree_tree_top.png
+nc_tree:tree_bud top nc_tree_bud_top.png
+
+# Hashy Adobe
+nc_concrete:concrete_adobe_hashy * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:56)
+
+# Hashy Cloudstone
+nc_concrete:concrete_cloudstone_hashy * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[invert:rgb^[opacity:32)
+
+# Hashy Pliant Adobe
+nc_concrete:concrete_adobe_hashy_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Hashy Pliant Cloudstone
+nc_concrete:concrete_cloudstone_hashy_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Hashy Pliant Sandstone
+nc_concrete:concrete_sandstone_hashy_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Hashy Pliant Stone
+nc_concrete:terrain_stone_hashy_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Hashy Pliant Tarstone
+nc_concrete:concrete_coalstone_hashy_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Hashy Sandstone
+nc_concrete:concrete_sandstone_hashy * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:80)
+
+# Hashy Stone
+nc_concrete:terrain_stone_hashy * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:64)
+
+# Hashy Tarstone
+nc_concrete:concrete_coalstone_hashy * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_hashy.png^[opacity:40)
+
+# Horzy Adobe
+nc_concrete:concrete_adobe_horzy * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:56)
+
+# Horzy Cloudstone
+nc_concrete:concrete_cloudstone_horzy * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[invert:rgb^[opacity:32)
+
+# Horzy Pliant Adobe
+nc_concrete:concrete_adobe_horzy_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Horzy Pliant Cloudstone
+nc_concrete:concrete_cloudstone_horzy_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Horzy Pliant Sandstone
+nc_concrete:concrete_sandstone_horzy_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Horzy Pliant Stone
+nc_concrete:terrain_stone_horzy_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Horzy Pliant Tarstone
+nc_concrete:concrete_coalstone_horzy_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Horzy Sandstone
+nc_concrete:concrete_sandstone_horzy * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:80)
+
+# Horzy Stone
+nc_concrete:terrain_stone_horzy * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:64)
+
+# Horzy Tarstone
+nc_concrete:concrete_coalstone_horzy * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_horzy.png^[opacity:40)
+
+# Humus
+nc_tree:humus * nc_tree_humus.png
+
+# Iceboxy Adobe
+nc_concrete:concrete_adobe_iceboxy * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:56)
+
+# Iceboxy Cloudstone
+nc_concrete:concrete_cloudstone_iceboxy * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[invert:rgb^[opacity:32)
+
+# Iceboxy Pliant Adobe
+nc_concrete:concrete_adobe_iceboxy_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Iceboxy Pliant Cloudstone
+nc_concrete:concrete_cloudstone_iceboxy_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Iceboxy Pliant Sandstone
+nc_concrete:concrete_sandstone_iceboxy_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Iceboxy Pliant Stone
+nc_concrete:terrain_stone_iceboxy_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Iceboxy Pliant Tarstone
+nc_concrete:concrete_coalstone_iceboxy_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Iceboxy Sandstone
+nc_concrete:concrete_sandstone_iceboxy * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:80)
+
+# Iceboxy Stone
+nc_concrete:terrain_stone_iceboxy * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:64)
+
+# Iceboxy Tarstone
+nc_concrete:concrete_coalstone_iceboxy * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_iceboxy.png^[opacity:40)
+
+# Infused Annealed Lode Adze
+nc_lux:adze_annealed inventory nc_lode_annealed.png^[mask:nc_lode_adze.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_adze.png^[opacity:80)
+nc_lux:adze_annealed_boost inventory nc_lode_annealed.png^[mask:nc_lode_adze.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_adze.png^[opacity:120)
+
+# Infused Annealed Lode Hatchet
+nc_lux:tool_hatchet_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_hatchet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_hatchet.png^[opacity:80)
+nc_lux:tool_hatchet_annealed_boost inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_hatchet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_hatchet.png^[opacity:120)
+
+# Infused Annealed Lode Mallet
+nc_lux:tool_mallet_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_mallet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mallet.png^[opacity:80)
+nc_lux:tool_mallet_annealed_boost inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_mallet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mallet.png^[opacity:120)
+
+# Infused Annealed Lode Mattock
+nc_lux:tool_mattock_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_mattock.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mattock.png^[opacity:80)
+nc_lux:tool_mattock_annealed_boost inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_mattock.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mattock.png^[opacity:120)
+
+# Infused Annealed Lode Pick
+nc_lux:tool_pick_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_pick.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_pick.png^[opacity:80)
+nc_lux:tool_pick_annealed_boost inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_pick.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_pick.png^[opacity:120)
+
+# Infused Annealed Lode Rake
+nc_lux:rake_annealed inventory nc_lode_annealed.png^[mask:nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_rake.png^[opacity:80)
+nc_lux:rake_annealed_boost inventory nc_lode_annealed.png^[mask:nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_rake.png^[opacity:120)
+
+# Infused Annealed Lode Spade
+nc_lux:tool_spade_annealed inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_spade.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_spade.png^[opacity:80)
+nc_lux:tool_spade_annealed_boost inventory nc_lode_tool_handle.png^(nc_lode_annealed.png^[mask:nc_lode_tool_spade.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_spade.png^[opacity:120)
+
+# Infused Tempered Lode Adze
+nc_lux:adze_tempered inventory nc_lode_tempered.png^[mask:nc_lode_adze.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_adze.png^[opacity:80)
+nc_lux:adze_tempered_boost inventory nc_lode_tempered.png^[mask:nc_lode_adze.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_adze.png^[opacity:120)
+
+# Infused Tempered Lode Hatchet
+nc_lux:tool_hatchet_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_hatchet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_hatchet.png^[opacity:80)
+nc_lux:tool_hatchet_tempered_boost inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_hatchet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_hatchet.png^[opacity:120)
+
+# Infused Tempered Lode Mallet
+nc_lux:tool_mallet_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_mallet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mallet.png^[opacity:80)
+nc_lux:tool_mallet_tempered_boost inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_mallet.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mallet.png^[opacity:120)
+
+# Infused Tempered Lode Mattock
+nc_lux:tool_mattock_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_mattock.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mattock.png^[opacity:80)
+nc_lux:tool_mattock_tempered_boost inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_mattock.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_mattock.png^[opacity:120)
+
+# Infused Tempered Lode Pick
+nc_lux:tool_pick_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_pick.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_pick.png^[opacity:80)
+nc_lux:tool_pick_tempered_boost inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_pick.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_pick.png^[opacity:120)
+
+# Infused Tempered Lode Rake
+nc_lux:rake_tempered inventory nc_lode_tempered.png^[mask:nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_rake.png^[opacity:80)
+nc_lux:rake_tempered_boost inventory nc_lode_tempered.png^[mask:nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_rake.png^[opacity:120)
+
+# Infused Tempered Lode Spade
+nc_lux:tool_spade_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_spade.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_spade.png^[opacity:80)
+nc_lux:tool_spade_tempered_boost inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_spade.png)^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:nc_lode_tool_spade.png^[opacity:120)
+
+# Lantern
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_lantern:lamp0 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:0)
+nc_lantern:lamp0 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp0 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp0 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp0 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp1 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:36)
+nc_lantern:lamp1 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp1 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp1 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp1 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp2 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:72)
+nc_lantern:lamp2 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp2 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp2 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp2 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp3 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:108)
+nc_lantern:lamp3 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp3 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp3 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp3 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp4 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:144)
+nc_lantern:lamp4 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp4 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp4 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp4 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp5 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:180)
+nc_lantern:lamp5 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp5 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp5 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp5 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp6 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:216)
+nc_lantern:lamp6 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp6 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp6 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp6 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp7 * nc_optics_glass_frost.png^(nc_lux_base.png^[opacity:252)
+nc_lantern:lamp7 left (nc_lode_annealed.png^nc_tote_knurl.png)
+nc_lantern:lamp7 right (nc_lode_annealed.png^nc_tote_knurl.png)^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp7 bottom (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_lantern:lamp7 top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+
+# Leaves
+nc_tree:leaves * nc_tree_leaves.png^[multiply:#a0a0a0^nc_tree_leaves.png
+
+# Lens
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:lens * nc_optics_glass_frost.png^nc_optics_port_input.png
+nc_optics:lens bottom nc_optics_glass_frost.png^nc_optics_port_output.png
+nc_optics:lens top nc_optics_glass_frost.png
+
+# Lit Torch
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_torch:torch_lit_1 * nc_torch_flame.png
+nc_torch:torch_lit_1 right nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:0)^[lowpart:50:nc_tree_tree_side.png
+nc_torch:torch_lit_1 bottom nc_tree_tree_top.png
+nc_torch:torch_lit_1 top nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:0)
+nc_torch:torch_lit_2 * nc_torch_flame.png
+nc_torch:torch_lit_2 right nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:64)^[lowpart:50:nc_tree_tree_side.png
+nc_torch:torch_lit_2 bottom nc_tree_tree_top.png
+nc_torch:torch_lit_2 top nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:64)
+nc_torch:torch_lit_3 * nc_torch_flame.png
+nc_torch:torch_lit_3 right nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:128)^[lowpart:50:nc_tree_tree_side.png
+nc_torch:torch_lit_3 bottom nc_tree_tree_top.png
+nc_torch:torch_lit_3 top nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:128)
+nc_torch:torch_lit_4 * nc_torch_flame.png
+nc_torch:torch_lit_4 right nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:192)^[lowpart:50:nc_tree_tree_side.png
+nc_torch:torch_lit_4 bottom nc_tree_tree_top.png
+nc_torch:torch_lit_4 top nc_fire_coal_4.png^nc_fire_ember_4.png^(nc_fire_ash.png^[opacity:192)
+
+# Living Sponge
+nc_sponge:sponge_living * [combine:16x512:0,0=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:255)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:129)\^(nc_terrain_water.png\^[opacity\:96):0,16=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:254)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:131)\^(nc_terrain_water.png\^[opacity\:96):0,32=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:251)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:134)\^(nc_terrain_water.png\^[opacity\:96):0,48=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:245)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:140)\^(nc_terrain_water.png\^[opacity\:96):0,64=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:237)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:148)\^(nc_terrain_water.png\^[opacity\:96):0,80=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:228)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:157)\^(nc_terrain_water.png\^[opacity\:96):0,96=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:217)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:168)\^(nc_terrain_water.png\^[opacity\:96):0,112=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:205)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:180)\^(nc_terrain_water.png\^[opacity\:96):0,128=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:192)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:192)\^(nc_terrain_water.png\^[opacity\:96):0,144=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:180)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:205)\^(nc_terrain_water.png\^[opacity\:96):0,160=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:168)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:217)\^(nc_terrain_water.png\^[opacity\:96):0,176=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:157)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:228)\^(nc_terrain_water.png\^[opacity\:96):0,192=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:148)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:237)\^(nc_terrain_water.png\^[opacity\:96):0,208=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:140)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:245)\^(nc_terrain_water.png\^[opacity\:96):0,224=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:134)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:251)\^(nc_terrain_water.png\^[opacity\:96):0,240=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:131)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:254)\^(nc_terrain_water.png\^[opacity\:96):0,256=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:129)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:255)\^(nc_terrain_water.png\^[opacity\:96):0,272=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:131)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:254)\^(nc_terrain_water.png\^[opacity\:96):0,288=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:134)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:251)\^(nc_terrain_water.png\^[opacity\:96):0,304=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:140)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:245)\^(nc_terrain_water.png\^[opacity\:96):0,320=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:148)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:237)\^(nc_terrain_water.png\^[opacity\:96):0,336=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:157)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:228)\^(nc_terrain_water.png\^[opacity\:96):0,352=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:168)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:217)\^(nc_terrain_water.png\^[opacity\:96):0,368=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:180)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:205)\^(nc_terrain_water.png\^[opacity\:96):0,384=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:192)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:192)\^(nc_terrain_water.png\^[opacity\:96):0,400=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:205)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:180)\^(nc_terrain_water.png\^[opacity\:96):0,416=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:217)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:168)\^(nc_terrain_water.png\^[opacity\:96):0,432=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:228)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:157)\^(nc_terrain_water.png\^[opacity\:96):0,448=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:237)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:148)\^(nc_terrain_water.png\^[opacity\:96):0,464=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:245)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:140)\^(nc_terrain_water.png\^[opacity\:96):0,480=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:251)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:134)\^(nc_terrain_water.png\^[opacity\:96):0,496=nc_sponge.png\^[resize\:16x16\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\^[opacity\:254)\^(nc_sponge_living.png\^[resize\:16x16\^[mask\:nc_sponge_mask1.png\\^[invert\\:a\^[opacity\:131)\^(nc_terrain_water.png\^[opacity\:96)
+
+# Lode Cobble
+nc_lode:cobble * nc_lode_ore.png^nc_terrain_cobble.png
+
+# Lode Crate
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_lode:shelf * nc_lode_annealed.png^[mask:nc_lode_shelf_side.png
+nc_lode:shelf bottom nc_lode_annealed.png^[mask:nc_lode_shelf_base.png
+nc_lode:shelf top nc_lode_annealed.png^[mask:nc_lode_shelf_side.png
+
+# Lode Form
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_lode:form * nc_lode_annealed.png^[mask:nc_api_storebox_frame.png
+
+# Lode Ore
+nc_lode:ore * nc_terrain_stone.png^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+nc_lode:ore_1 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:59)^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+nc_lode:ore_2 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:99)^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+nc_lode:ore_3 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:134)^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+nc_lode:ore_4 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:166)^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+nc_lode:ore_5 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:197)^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+nc_lode:ore_6 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:226)^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+nc_lode:ore_7 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:253)^(nc_lode_ore.png^[mask:nc_lode_mask_ore.png)
+
+# Log
+nc_tree:log * nc_tree_tree_side.png
+nc_tree:log bottom nc_tree_tree_top.png
+nc_tree:log top nc_tree_tree_top.png
+
+# Loose Amalgamation
+nc_igneous:amalgam_loose * [combine:16x512:0,0=nc_terrain_lava.png:0,0=nc_terrain_cobble.png:0,16=nc_terrain_cobble.png:0,32=nc_terrain_cobble.png:0,48=nc_terrain_cobble.png:0,64=nc_terrain_cobble.png:0,80=nc_terrain_cobble.png:0,96=nc_terrain_cobble.png:0,112=nc_terrain_cobble.png:0,128=nc_terrain_cobble.png:0,144=nc_terrain_cobble.png:0,160=nc_terrain_cobble.png:0,176=nc_terrain_cobble.png:0,192=nc_terrain_cobble.png:0,208=nc_terrain_cobble.png:0,224=nc_terrain_cobble.png:0,240=nc_terrain_cobble.png:0,256=nc_terrain_cobble.png:0,272=nc_terrain_cobble.png:0,288=nc_terrain_cobble.png:0,304=nc_terrain_cobble.png:0,320=nc_terrain_cobble.png:0,336=nc_terrain_cobble.png:0,352=nc_terrain_cobble.png:0,368=nc_terrain_cobble.png:0,384=nc_terrain_cobble.png:0,400=nc_terrain_cobble.png:0,416=nc_terrain_cobble.png:0,432=nc_terrain_cobble.png:0,448=nc_terrain_cobble.png:0,464=nc_terrain_cobble.png:0,480=nc_terrain_cobble.png:0,496=nc_terrain_cobble.png:0,0=nc_api_loose.png:0,16=nc_api_loose.png:0,32=nc_api_loose.png:0,48=nc_api_loose.png:0,64=nc_api_loose.png:0,80=nc_api_loose.png:0,96=nc_api_loose.png:0,112=nc_api_loose.png:0,128=nc_api_loose.png:0,144=nc_api_loose.png:0,160=nc_api_loose.png:0,176=nc_api_loose.png:0,192=nc_api_loose.png:0,208=nc_api_loose.png:0,224=nc_api_loose.png:0,240=nc_api_loose.png:0,256=nc_api_loose.png:0,272=nc_api_loose.png:0,288=nc_api_loose.png:0,304=nc_api_loose.png:0,320=nc_api_loose.png:0,336=nc_api_loose.png:0,352=nc_api_loose.png:0,368=nc_api_loose.png:0,384=nc_api_loose.png:0,400=nc_api_loose.png:0,416=nc_api_loose.png:0,432=nc_api_loose.png:0,448=nc_api_loose.png:0,464=nc_api_loose.png:0,480=nc_api_loose.png:0,496=nc_api_loose.png
+
+# Loose Cobble
+nc_terrain:cobble_loose * nc_terrain_gravel.png^nc_terrain_cobble.png^nc_api_loose.png
+
+# Loose Dirt
+nc_terrain:dirt_loose * nc_terrain_dirt.png^nc_api_loose.png
+
+# Loose Gravel
+nc_terrain:gravel_loose * nc_terrain_gravel.png^nc_api_loose.png
+
+# Loose Humus
+nc_tree:humus_loose * nc_tree_humus.png^nc_api_loose.png
+
+# Loose Leaves
+nc_tree:leaves_loose * nc_tree_leaves_dry.png^[multiply:#a0a0a0^nc_tree_leaves_dry.png
+
+# Loose Lode Cobble
+nc_lode:cobble_loose * nc_lode_ore.png^nc_terrain_cobble.png^nc_api_loose.png
+
+# Loose Lux Cobble
+nc_lux:cobble1_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:32)^nc_terrain_cobble.png^nc_api_loose.png
+nc_lux:cobble2_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:64)^nc_terrain_cobble.png^nc_api_loose.png
+nc_lux:cobble3_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:96)^nc_terrain_cobble.png^nc_api_loose.png
+nc_lux:cobble4_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:128)^nc_terrain_cobble.png^nc_api_loose.png
+nc_lux:cobble5_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:160)^nc_terrain_cobble.png^nc_api_loose.png
+nc_lux:cobble6_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:192)^nc_terrain_cobble.png^nc_api_loose.png
+nc_lux:cobble7_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:224)^nc_terrain_cobble.png^nc_api_loose.png
+nc_lux:cobble8_loose * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:256)^nc_terrain_cobble.png^nc_api_loose.png
+
+# Loose Sand
+nc_terrain:sand_loose * nc_terrain_sand.png^nc_api_loose.png
+
+# Lux Cobble
+nc_lux:cobble1 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:32)^nc_terrain_cobble.png
+nc_lux:cobble2 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:64)^nc_terrain_cobble.png
+nc_lux:cobble3 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:96)^nc_terrain_cobble.png
+nc_lux:cobble4 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:128)^nc_terrain_cobble.png
+nc_lux:cobble5 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:160)^nc_terrain_cobble.png
+nc_lux:cobble6 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:192)^nc_terrain_cobble.png
+nc_lux:cobble7 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:224)^nc_terrain_cobble.png
+nc_lux:cobble8 * nc_terrain_gravel.png^((nc_lux_base.png^[mask:nc_lux_dot_mask.png)^[opacity:256)^nc_terrain_cobble.png
+
+# Mew Charcoal Glyph
+nc_writing:glyph5 * [combine:1x1
+nc_writing:glyph5 top nc_fire_coal_4.png^[mask:nc_writing_glyph_mew.png
+
+# Molten Glass
+nc_optics:glass_hot_flowing * nc_terrain_lava.png^[resize:16x512^[multiply:#c06000^([combine:16x512:0,0=nc_optics_glass_sparkle.png:0,16=nc_optics_glass_sparkle.png:0,32=nc_optics_glass_sparkle.png:0,48=nc_optics_glass_sparkle.png:0,64=nc_optics_glass_sparkle.png:0,80=nc_optics_glass_sparkle.png:0,96=nc_optics_glass_sparkle.png:0,112=nc_optics_glass_sparkle.png:0,128=nc_optics_glass_sparkle.png:0,144=nc_optics_glass_sparkle.png:0,160=nc_optics_glass_sparkle.png:0,176=nc_optics_glass_sparkle.png:0,192=nc_optics_glass_sparkle.png:0,208=nc_optics_glass_sparkle.png:0,224=nc_optics_glass_sparkle.png:0,240=nc_optics_glass_sparkle.png:0,256=nc_optics_glass_sparkle.png:0,272=nc_optics_glass_sparkle.png:0,288=nc_optics_glass_sparkle.png:0,304=nc_optics_glass_sparkle.png:0,320=nc_optics_glass_sparkle.png:0,336=nc_optics_glass_sparkle.png:0,352=nc_optics_glass_sparkle.png:0,368=nc_optics_glass_sparkle.png:0,384=nc_optics_glass_sparkle.png:0,400=nc_optics_glass_sparkle.png:0,416=nc_optics_glass_sparkle.png:0,432=nc_optics_glass_sparkle.png:0,448=nc_optics_glass_sparkle.png:0,464=nc_optics_glass_sparkle.png:0,480=nc_optics_glass_sparkle.png:0,496=nc_optics_glass_sparkle.png^[multiply:#ffc080)
+nc_optics:glass_hot_source * nc_terrain_lava.png^[resize:16x512^[multiply:#c06000^([combine:16x512:0,0=nc_optics_glass_sparkle.png:0,16=nc_optics_glass_sparkle.png:0,32=nc_optics_glass_sparkle.png:0,48=nc_optics_glass_sparkle.png:0,64=nc_optics_glass_sparkle.png:0,80=nc_optics_glass_sparkle.png:0,96=nc_optics_glass_sparkle.png:0,112=nc_optics_glass_sparkle.png:0,128=nc_optics_glass_sparkle.png:0,144=nc_optics_glass_sparkle.png:0,160=nc_optics_glass_sparkle.png:0,176=nc_optics_glass_sparkle.png:0,192=nc_optics_glass_sparkle.png:0,208=nc_optics_glass_sparkle.png:0,224=nc_optics_glass_sparkle.png:0,240=nc_optics_glass_sparkle.png:0,256=nc_optics_glass_sparkle.png:0,272=nc_optics_glass_sparkle.png:0,288=nc_optics_glass_sparkle.png:0,304=nc_optics_glass_sparkle.png:0,320=nc_optics_glass_sparkle.png:0,336=nc_optics_glass_sparkle.png:0,352=nc_optics_glass_sparkle.png:0,368=nc_optics_glass_sparkle.png:0,384=nc_optics_glass_sparkle.png:0,400=nc_optics_glass_sparkle.png:0,416=nc_optics_glass_sparkle.png:0,432=nc_optics_glass_sparkle.png:0,448=nc_optics_glass_sparkle.png:0,464=nc_optics_glass_sparkle.png:0,480=nc_optics_glass_sparkle.png:0,496=nc_optics_glass_sparkle.png^[multiply:#ffc080)
+
+# Niz Charcoal Glyph
+nc_writing:glyph3 * [combine:1x1
+nc_writing:glyph3 top nc_fire_coal_4.png^[mask:nc_writing_glyph_niz.png
+
+# Odo Charcoal Glyph
+nc_writing:glyph2 * [combine:1x1
+nc_writing:glyph2 top nc_fire_coal_4.png^[mask:nc_writing_glyph_odo.png
+
+# Orange Bell Flower
+nc_flora:flower_1_3 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#c16100)
+nc_flora:flower_1_3 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#c16100)
+nc_flora:flower_1_3 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#c16100)
+
+# Orange Cluster Flower
+nc_flora:flower_4_3 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#c16100)
+nc_flora:flower_4_3 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#c16100)
+nc_flora:flower_4_3 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#c16100)
+
+# Orange Cup Flower
+nc_flora:flower_2_3 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#c16100)
+nc_flora:flower_2_3 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#c16100)
+nc_flora:flower_2_3 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#c16100)
+
+# Orange Rosette Flower
+nc_flora:flower_3_3 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#c16100)
+nc_flora:flower_3_3 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#c16100)
+nc_flora:flower_3_3 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#c16100)
+
+# Orange Star Flower
+nc_flora:flower_5_3 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+nc_flora:flower_5_3 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+nc_flora:flower_5_3 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+
+# Peat
+nc_tree:peat * nc_tree_humus.png^nc_tree_peat.png^nc_api_loose.png
+
+# Pink Bell Flower
+nc_flora:flower_1_1 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#d23379)
+nc_flora:flower_1_1 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#d23379)
+nc_flora:flower_1_1 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#d23379)
+
+# Pink Cluster Flower
+nc_flora:flower_4_1 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#d23379)
+nc_flora:flower_4_1 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#d23379)
+nc_flora:flower_4_1 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#d23379)
+
+# Pink Cup Flower
+nc_flora:flower_2_1 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#d23379)
+nc_flora:flower_2_1 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#d23379)
+nc_flora:flower_2_1 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#d23379)
+
+# Pink Rosette Flower
+nc_flora:flower_3_1 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#d23379)
+nc_flora:flower_3_1 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#d23379)
+nc_flora:flower_3_1 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#d23379)
+
+# Pink Star Flower
+nc_flora:flower_5_1 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+nc_flora:flower_5_1 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+nc_flora:flower_5_1 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+
+# Pliant Adobe
+nc_concrete:concrete_adobe_blank_ply * nc_concrete_adobe.png^(nc_concrete_pliant.png^[opacity:64)
+
+# Pliant Cloudstone
+nc_concrete:concrete_cloudstone_blank_ply * nc_concrete_cloudstone.png^(nc_concrete_pliant.png^[opacity:64)
+
+# Pliant Sandstone
+nc_concrete:concrete_sandstone_blank_ply * nc_concrete_sandstone.png^(nc_concrete_pliant.png^[opacity:40)
+
+# Pliant Stone
+nc_concrete:terrain_stone_blank_ply * nc_terrain_stone.png^(nc_concrete_pliant.png^[opacity:64)
+
+# Pliant Tarstone
+nc_concrete:concrete_coalstone_blank_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_pliant.png^[opacity:128)
+
+# Prism
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:prism * nc_optics_glass_frost.png^nc_optics_port_wide.png
+nc_optics:prism bottom nc_optics_glass_frost.png^nc_optics_port_output.png
+nc_optics:prism top nc_optics_glass_frost.png
+
+# Prx Charcoal Glyph
+nc_writing:glyph11 * [combine:1x1
+nc_writing:glyph11 top nc_fire_coal_4.png^[mask:nc_writing_glyph_prx.png
+
+# Pumice
+nc_igneous:pumice * nc_igneous_pumice.png
+
+# Pumwater
+nc_terrain:lava_flowing * nc_terrain_lava.png
+nc_terrain:lava_source * nc_terrain_lava.png
+
+# Qeg Charcoal Glyph
+nc_writing:glyph10 * [combine:1x1
+nc_writing:glyph10 top nc_fire_coal_4.png^[mask:nc_writing_glyph_geq.png^[transformFX
+
+# Raked Dirt
+nc_writing:dirt_raked * nc_terrain_dirt.png^(nc_writing_raking_side.png^[opacity:108)
+nc_writing:dirt_raked bottom nc_terrain_dirt.png^nc_api_loose.png
+nc_writing:dirt_raked top nc_terrain_dirt.png^(nc_writing_raking_linear.png^[opacity:108)
+nc_writing:dirt_raked_nexus * nc_terrain_dirt.png^(nc_writing_raking_side.png^[opacity:108)
+nc_writing:dirt_raked_nexus bottom nc_terrain_dirt.png^nc_api_loose.png
+nc_writing:dirt_raked_nexus top nc_terrain_dirt.png^(nc_writing_raking_nexus.png^[opacity:108)
+
+# Raked Gravel
+nc_writing:gravel_raked * nc_terrain_gravel.png^(nc_writing_raking_side.png^[opacity:160)
+nc_writing:gravel_raked bottom nc_terrain_gravel.png^nc_api_loose.png
+nc_writing:gravel_raked top nc_terrain_gravel.png^(nc_writing_raking_linear.png^[opacity:160)
+nc_writing:gravel_raked_nexus * nc_terrain_gravel.png^(nc_writing_raking_side.png^[opacity:160)
+nc_writing:gravel_raked_nexus bottom nc_terrain_gravel.png^nc_api_loose.png
+nc_writing:gravel_raked_nexus top nc_terrain_gravel.png^(nc_writing_raking_nexus.png^[opacity:160)
+
+# Raked Humus
+nc_writing:humus_raked * nc_tree_humus.png^(nc_writing_raking_side.png^[opacity:116)
+nc_writing:humus_raked bottom nc_tree_humus.png^nc_api_loose.png
+nc_writing:humus_raked top nc_tree_humus.png^(nc_writing_raking_linear.png^[opacity:116)
+nc_writing:humus_raked_nexus * nc_tree_humus.png^(nc_writing_raking_side.png^[opacity:116)
+nc_writing:humus_raked_nexus bottom nc_tree_humus.png^nc_api_loose.png
+nc_writing:humus_raked_nexus top nc_tree_humus.png^(nc_writing_raking_nexus.png^[opacity:116)
+
+# Raked Sand
+nc_writing:sand_raked * nc_terrain_sand.png^(nc_writing_raking_side.png^[opacity:96)
+nc_writing:sand_raked bottom nc_terrain_sand.png^nc_api_loose.png
+nc_writing:sand_raked top nc_terrain_sand.png^(nc_writing_raking_linear.png^[opacity:96)
+nc_writing:sand_raked_nexus * nc_terrain_sand.png^(nc_writing_raking_side.png^[opacity:96)
+nc_writing:sand_raked_nexus bottom nc_terrain_sand.png^nc_api_loose.png
+nc_writing:sand_raked_nexus top nc_terrain_sand.png^(nc_writing_raking_nexus.png^[opacity:96)
+
+# Red Bell Flower
+nc_flora:flower_1_2 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#d80000)
+nc_flora:flower_1_2 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#d80000)
+nc_flora:flower_1_2 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#d80000)
+
+# Red Cluster Flower
+nc_flora:flower_4_2 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#d80000)
+nc_flora:flower_4_2 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#d80000)
+nc_flora:flower_4_2 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#d80000)
+
+# Red Cup Flower
+nc_flora:flower_2_2 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#d80000)
+nc_flora:flower_2_2 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#d80000)
+nc_flora:flower_2_2 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#d80000)
+
+# Red Rosette Flower
+nc_flora:flower_3_2 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#d80000)
+nc_flora:flower_3_2 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#d80000)
+nc_flora:flower_3_2 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#d80000)
+
+# Red Star Flower
+nc_flora:flower_5_2 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d80000)
+nc_flora:flower_5_2 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d80000)
+nc_flora:flower_5_2 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d80000)
+
+# Render
+nc_concrete:render * nc_terrain_sand.png^(nc_fire_ash.png^[mask:nc_concrete_mask.png)
+
+# Rush
+nc_flora:rush * nc_flora_rush_side.png
+nc_flora:rush inventory nc_flora_rush_inv.png
+nc_flora:rush wield nc_flora_rush_inv.png
+
+# Sand
+nc_terrain:sand * nc_terrain_sand.png
+
+# Sandstone
+nc_concrete:sandstone * nc_concrete_sandstone.png
+
+# Sandstone Bricks
+nc_stonework:bricks_sandstone * nc_concrete_sandstone.png^(nc_stonework_bricks.png^[opacity:192)
+
+# Sedge
+nc_flora:sedge_1 * nc_flora_sedge_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_sedge_mask1.png
+nc_flora:sedge_1 inventory nc_flora_sedge_item.png
+nc_flora:sedge_1 wield nc_flora_sedge_item.png
+nc_flora:sedge_2 * nc_flora_sedge_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_sedge_mask2.png
+nc_flora:sedge_2 inventory nc_flora_sedge_item.png
+nc_flora:sedge_2 wield nc_flora_sedge_item.png
+nc_flora:sedge_3 * nc_flora_sedge_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_sedge_mask3.png
+nc_flora:sedge_3 inventory nc_flora_sedge_item.png
+nc_flora:sedge_3 wield nc_flora_sedge_item.png
+nc_flora:sedge_4 * nc_flora_sedge_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_sedge_mask4.png
+nc_flora:sedge_4 inventory nc_flora_sedge_item.png
+nc_flora:sedge_4 wield nc_flora_sedge_item.png
+nc_flora:sedge_5 * nc_flora_sedge_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_sedge_mask5.png
+nc_flora:sedge_5 inventory nc_flora_sedge_item.png
+nc_flora:sedge_5 wield nc_flora_sedge_item.png
+
+# Shining Lens
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_optics:lens_glow * nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_active.png
+nc_optics:lens_glow bottom nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_input.png
+nc_optics:lens_glow top nc_optics_glass_frost.png^nc_optics_shine_side.png
+nc_optics:lens_glow_start * nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_active.png
+nc_optics:lens_glow_start bottom nc_optics_glass_frost.png^nc_optics_shine_end.png^nc_optics_port_input.png
+nc_optics:lens_glow_start top nc_optics_glass_frost.png^nc_optics_shine_side.png
+
+# Spackling
+nc_concrete:cloudmix * nc_concrete_cloudstone.png^(nc_fire_ash.png^[mask:nc_concrete_mask.png)
+
+# Sponge
+nc_sponge:sponge * nc_sponge.png
+
+# Sprout
+nc_tree:eggcorn_planted * nc_terrain_dirt.png^nc_api_loose.png
+
+# Staff
+nc_woodwork:staff * nc_woodwork_frame.png
+nc_woodwork:staff bottom nc_tree_tree_top.png
+nc_woodwork:staff top nc_tree_tree_top.png
+
+# Stick
+nc_tree:stick * nc_tree_tree_side.png
+nc_tree:stick bottom nc_tree_tree_top.png
+nc_tree:stick top nc_tree_tree_top.png
+
+# Stone
+nc_lode:stone * nc_terrain_stone.png^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lode:stone_1 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:59)^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lode:stone_2 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:99)^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lode:stone_3 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:134)^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lode:stone_4 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:166)^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lode:stone_5 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:197)^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lode:stone_6 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:226)^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lode:stone_7 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:253)^(nc_terrain_stone.png^[mask:nc_lode_mask_sign.png)^(nc_lode_ore.png^[mask:nc_lode_mask_sign.png^[opacity:140)
+nc_lux:stone * nc_terrain_stone.png
+nc_lux:stone_1 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:59)
+nc_lux:stone_2 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:99)
+nc_lux:stone_3 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:134)
+nc_lux:stone_4 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:166)
+nc_lux:stone_5 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:197)
+nc_lux:stone_6 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:226)
+nc_lux:stone_7 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:253)
+nc_terrain:hard_stone_1 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:59)
+nc_terrain:hard_stone_2 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:99)
+nc_terrain:hard_stone_3 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:134)
+nc_terrain:hard_stone_4 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:166)
+nc_terrain:hard_stone_5 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:197)
+nc_terrain:hard_stone_6 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:226)
+nc_terrain:hard_stone_7 * nc_terrain_stone.png^(nc_terrain_stone_hard.png^[opacity:253)
+nc_terrain:stone * nc_terrain_stone.png
+
+# Stone Bricks
+nc_stonework:bricks_stone * nc_terrain_stone.png^(nc_stonework_bricks.png^[opacity:240)
+
+# Stone Chip
+nc_stonework:chip inventory nc_stonework_stone.png
+nc_stonework:chip wield [combine:16x16:0,2=nc_stonework_stone.png
+
+# Stone-Tipped Hatchet
+nc_stonework:tool_hatchet inventory nc_woodwork_tool_hatchet.png^nc_stonework_tip_hatchet.png
+
+# Stone-Tipped Mallet
+nc_stonework:tool_mallet inventory nc_woodwork_tool_mallet.png^nc_stonework_tip_mallet.png
+
+# Stone-Tipped Pick
+nc_stonework:tool_pick inventory nc_woodwork_tool_pick.png^nc_stonework_tip_pick.png
+
+# Stone-Tipped Spade
+nc_stonework:tool_spade inventory nc_woodwork_tool_spade.png^nc_stonework_tip_spade.png
+
+# Stone-Tipped Stylus
+nc_concrete:stylus inventory nc_concrete_tool_stylus.png
+
+# Stump
+nc_tree:root * nc_terrain_dirt.png^nc_tree_roots.png
+nc_tree:root bottom nc_terrain_dirt.png
+nc_tree:root top nc_tree_tree_top.png
+
+# Tarstone
+nc_concrete:coalstone * nc_terrain_stone.png^[colorize:#000000:160
+
+# Tarstone Bricks
+nc_stonework:bricks_coalstone * nc_terrain_stone.png^[colorize:#000000:160^(nc_stonework_bricks.png^[opacity:255)
+
+# Tempered Lode
+nc_lode:block_tempered * nc_lode_tempered.png
+
+# Tempered Lode Adze
+nc_lode:adze_tempered inventory nc_lode_tempered.png^[mask:nc_lode_adze.png
+
+# Tempered Lode Bar
+nc_lode:bar_tempered * nc_lode_tempered.png
+
+# Tempered Lode Frame
+nc_lode:frame_tempered * nc_lode_tempered.png
+
+# Tempered Lode Hatchet
+nc_lode:tool_hatchet_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_hatchet.png)
+
+# Tempered Lode Hatchet Head
+nc_lode:toolhead_hatchet_tempered inventory nc_lode_tempered.png^[mask:nc_lode_toolhead_hatchet.png
+
+# Tempered Lode Ladder
+nc_lode:ladder_tempered * nc_lode_tempered.png
+
+# Tempered Lode Mallet
+nc_lode:tool_mallet_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_mallet.png)
+
+# Tempered Lode Mallet Head
+nc_lode:toolhead_mallet_tempered inventory nc_lode_tempered.png^[mask:nc_lode_toolhead_mallet.png
+
+# Tempered Lode Mattock
+nc_lode:tool_mattock_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_mattock.png)
+
+# Tempered Lode Mattock Head
+nc_lode:toolhead_mattock_tempered inventory nc_lode_tempered.png^[mask:nc_lode_toolhead_mattock.png
+
+# Tempered Lode Pick
+nc_lode:tool_pick_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_pick.png)
+
+# Tempered Lode Pick Head
+nc_lode:toolhead_pick_tempered inventory nc_lode_tempered.png^[mask:nc_lode_toolhead_pick.png
+
+# Tempered Lode Prill
+nc_lode:prill_tempered inventory nc_lode_tempered.png^[mask:nc_lode_mask_prill.png
+
+# Tempered Lode Rake
+nc_lode:rake_tempered inventory nc_lode_tempered.png^[mask:nc_lode_rake.png
+
+# Tempered Lode Rod
+nc_lode:rod_tempered * nc_lode_tempered.png
+
+# Tempered Lode Spade
+nc_lode:tool_spade_tempered inventory nc_lode_tool_handle.png^(nc_lode_tempered.png^[mask:nc_lode_tool_spade.png)
+
+# Tempered Lode Spade Head
+nc_lode:toolhead_spade_tempered inventory nc_lode_tempered.png^[mask:nc_lode_toolhead_spade.png
+
+# Tempered Lode Tongs
+nc_lode:tongs_tempered inventory nc_lode_tempered.png^[mask:nc_lode_tongs.png
+
+# Thatch
+nc_flora:thatch * nc_flora_thatch.png
+
+# Tof Charcoal Glyph
+nc_writing:glyph7 * [combine:1x1
+nc_writing:glyph7 top nc_fire_coal_4.png^[mask:nc_writing_glyph_fot.png^[transformFX
+
+# Torch
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_torch:torch * [combine:1x1
+nc_torch:torch right nc_fire_coal_4.png^[lowpart:50:nc_tree_tree_side.png
+nc_torch:torch bottom nc_tree_tree_top.png
+nc_torch:torch top nc_fire_coal_4.png
+
+# Tote Handle
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_tote:handle * [combine:1x1
+nc_tote:handle left nc_lode_annealed.png^nc_tote_knurl.png
+nc_tote:handle right nc_lode_annealed.png^nc_tote_knurl.png^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_tote:handle bottom nc_lode_annealed.png
+nc_tote:handle top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_tote:handle_full * nc_tote_fill.png
+nc_tote:handle_full left nc_lode_annealed.png^nc_tote_knurl.png
+nc_tote:handle_full right nc_lode_annealed.png^nc_tote_knurl.png^[transformFX^[mask:nc_tote_top.png^[transformR90^(nc_lode_annealed.png^[mask:nc_tote_sides.png)
+nc_tote:handle_full bottom nc_lode_annealed.png
+nc_tote:handle_full top (nc_lode_annealed.png^[mask:nc_tote_sides.png)
+
+# Tree Trunk
+nc_tree:tree * nc_tree_tree_side.png
+nc_tree:tree bottom nc_tree_tree_top.png
+nc_tree:tree top nc_tree_tree_top.png
+
+# Vermy Adobe
+nc_concrete:concrete_adobe_vermy * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:56)
+
+# Vermy Cloudstone
+nc_concrete:concrete_cloudstone_vermy * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[invert:rgb^[opacity:32)
+
+# Vermy Pliant Adobe
+nc_concrete:concrete_adobe_vermy_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Vermy Pliant Cloudstone
+nc_concrete:concrete_cloudstone_vermy_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Vermy Pliant Sandstone
+nc_concrete:concrete_sandstone_vermy_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Vermy Pliant Stone
+nc_concrete:terrain_stone_vermy_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Vermy Pliant Tarstone
+nc_concrete:concrete_coalstone_vermy_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Vermy Sandstone
+nc_concrete:concrete_sandstone_vermy * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:80)
+
+# Vermy Stone
+nc_concrete:terrain_stone_vermy * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:64)
+
+# Vermy Tarstone
+nc_concrete:concrete_coalstone_vermy * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_vermy.png^[opacity:40)
+
+# Verty Adobe
+nc_concrete:concrete_adobe_verty * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:56)
+
+# Verty Cloudstone
+nc_concrete:concrete_cloudstone_verty * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[invert:rgb^[opacity:32)
+
+# Verty Pliant Adobe
+nc_concrete:concrete_adobe_verty_ply * nc_concrete_adobe.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:56)^(nc_concrete_pliant.png^[opacity:64)
+
+# Verty Pliant Cloudstone
+nc_concrete:concrete_cloudstone_verty_ply * nc_concrete_cloudstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[invert:rgb^[opacity:32)^(nc_concrete_pliant.png^[opacity:64)
+
+# Verty Pliant Sandstone
+nc_concrete:concrete_sandstone_verty_ply * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:80)^(nc_concrete_pliant.png^[opacity:40)
+
+# Verty Pliant Stone
+nc_concrete:terrain_stone_verty_ply * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:64)^(nc_concrete_pliant.png^[opacity:64)
+
+# Verty Pliant Tarstone
+nc_concrete:concrete_coalstone_verty_ply * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:40)^(nc_concrete_pliant.png^[opacity:128)
+
+# Verty Sandstone
+nc_concrete:concrete_sandstone_verty * nc_concrete_sandstone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:80)
+
+# Verty Stone
+nc_concrete:terrain_stone_verty * nc_terrain_stone.png^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:64)
+
+# Verty Tarstone
+nc_concrete:concrete_coalstone_verty * nc_terrain_stone.png^[colorize:#000000:160^(nc_concrete_etched.png^[mask:nc_concrete_pattern_verty.png^[opacity:40)
+
+# Violet Bell Flower
+nc_flora:flower_1_8 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#5900b2)
+nc_flora:flower_1_8 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#5900b2)
+nc_flora:flower_1_8 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#5900b2)
+
+# Violet Cluster Flower
+nc_flora:flower_4_8 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#5900b2)
+nc_flora:flower_4_8 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#5900b2)
+nc_flora:flower_4_8 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#5900b2)
+
+# Violet Cup Flower
+nc_flora:flower_2_8 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#5900b2)
+nc_flora:flower_2_8 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#5900b2)
+nc_flora:flower_2_8 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#5900b2)
+
+# Violet Rosette Flower
+nc_flora:flower_3_8 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#5900b2)
+nc_flora:flower_3_8 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#5900b2)
+nc_flora:flower_3_8 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#5900b2)
+
+# Violet Star Flower
+nc_flora:flower_5_8 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#5900b2)
+nc_flora:flower_5_8 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#5900b2)
+nc_flora:flower_5_8 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#5900b2)
+
+# Water
+nc_terrain:river_water_flowing * nc_terrain_water.png^[noalpha^[opacity:180
+nc_terrain:river_water_source * nc_terrain_water.png^[noalpha^[opacity:180
+nc_terrain:water_flowing * nc_terrain_water.png^[noalpha^[opacity:180
+nc_terrain:water_gray_flowing * nc_terrain_water.png^[noalpha^(nc_terrain_water_gray.png^[opacity:64)^[opacity:160
+nc_terrain:water_gray_source * nc_terrain_water.png^[noalpha^(nc_terrain_water_gray.png^[opacity:64)^[opacity:160
+nc_terrain:water_source * nc_terrain_water.png^[noalpha^[opacity:180
+
+# Wet Adobe Mix
+nc_concrete:mud_wet_flowing * nc_terrain_dirt.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+nc_concrete:mud_wet_source * nc_terrain_dirt.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+
+# Wet Aggregate
+nc_concrete:aggregate_wet_flowing * nc_terrain_stone.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+nc_concrete:aggregate_wet_source * nc_terrain_stone.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+
+# Wet Render
+nc_concrete:render_wet_flowing * nc_terrain_sand.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+nc_concrete:render_wet_source * nc_terrain_sand.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+
+# Wet Spackling
+nc_concrete:cloudmix_wet_flowing * nc_concrete_cloudstone.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+nc_concrete:cloudmix_wet_source * nc_concrete_cloudstone.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)
+
+# Wet Sponge
+nc_sponge:sponge_wet * nc_sponge.png^(nc_terrain_water.png^[opacity:96)
+
+# Wet Tarry Aggregate
+nc_concrete:coalaggregate_wet_flowing * nc_terrain_stone.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)^[colorize:#000000:160
+nc_concrete:coalaggregate_wet_source * nc_terrain_stone.png^(nc_fire_ash.png^(nc_terrain_gravel.png^[opacity:128)^[mask:nc_concrete_mask.png)^[colorize:#000000:160
+
+# White Bell Flower
+nc_flora:flower_1_5 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#adadad)
+nc_flora:flower_1_5 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#adadad)
+nc_flora:flower_1_5 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#adadad)
+
+# White Cluster Flower
+nc_flora:flower_4_5 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#adadad)
+nc_flora:flower_4_5 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#adadad)
+nc_flora:flower_4_5 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#adadad)
+
+# White Cup Flower
+nc_flora:flower_2_5 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#adadad)
+nc_flora:flower_2_5 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#adadad)
+nc_flora:flower_2_5 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#adadad)
+
+# White Rosette Flower
+nc_flora:flower_3_5 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#adadad)
+nc_flora:flower_3_5 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#adadad)
+nc_flora:flower_3_5 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#adadad)
+
+# White Star Flower
+nc_flora:flower_5_5 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+nc_flora:flower_5_5 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+nc_flora:flower_5_5 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+
+# Wicker
+nc_flora:wicker * nc_flora_wicker.png
+
+# Wilted Bell Flower
+nc_flora:flower_1_0 * nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#7b7a64)
+nc_flora:flower_1_0 inventory nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#7b7a64)
+nc_flora:flower_1_0 wield nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#7b7a64)
+
+# Wilted Cluster Flower
+nc_flora:flower_4_0 * nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#7b7a64)
+nc_flora:flower_4_0 inventory nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#7b7a64)
+nc_flora:flower_4_0 wield nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#7b7a64)
+
+# Wilted Cup Flower
+nc_flora:flower_2_0 * nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#7b7a64)
+nc_flora:flower_2_0 inventory nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#7b7a64)
+nc_flora:flower_2_0 wield nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#7b7a64)
+
+# Wilted Rosette Flower
+nc_flora:flower_3_0 * nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#7b7a64)
+nc_flora:flower_3_0 inventory nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#7b7a64)
+nc_flora:flower_3_0 wield nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#7b7a64)
+
+# Wilted Star Flower
+nc_flora:flower_5_0 * nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#7b7a64)
+nc_flora:flower_5_0 inventory nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#7b7a64)
+nc_flora:flower_5_0 wield nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#7b7a64)
+
+# Wooden Adze
+nc_woodwork:adze inventory nc_woodwork_adze.png
+
+# Wooden Form
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_woodwork:form * nc_tree_tree_side.png^[mask:nc_api_storebox_frame.png
+
+# Wooden Frame
+nc_woodwork:frame * nc_woodwork_frame.png^(nc_tree_tree_top.png^[mask:nc_woodwork_ladder_mask.png)
+
+# Wooden Hatchet
+nc_woodwork:tool_hatchet inventory nc_woodwork_tool_hatchet.png
+
+# Wooden Hatchet Head
+nc_woodwork:toolhead_hatchet inventory nc_woodwork_toolhead_hatchet.png
+
+# Wooden Hinged Panel
+nc_doors:door_plank front nc_woodwork_plank.png^nc_doors_hinge_side_base.png^[transformR180^((nc_woodwork_frame.png)^[mask:nc_doors_hinge_side_mask.png^[transformR180)
+nc_doors:door_plank back nc_woodwork_plank.png^(nc_doors_hinge_scuff.png^[opacity:72^[transformR180)
+nc_doors:door_plank left nc_woodwork_plank.png^(nc_doors_hinge_scuff.png^[opacity:72)
+nc_doors:door_plank right nc_woodwork_plank.png^nc_doors_hinge_side_base.png^[transformI^((nc_woodwork_frame.png)^[mask:nc_doors_hinge_side_mask.png^[transformI)
+nc_doors:door_plank bottom nc_woodwork_plank.png^nc_doors_hinge_end_base.png^[transformFX^((nc_woodwork_frame.png)^[mask:nc_doors_hinge_end_mask.png^[transformFX)
+nc_doors:door_plank top nc_woodwork_plank.png^nc_doors_hinge_end_base.png^[transformR180^((nc_woodwork_frame.png)^[mask:nc_doors_hinge_end_mask.png^[transformR180)
+
+# Wooden Ladder
+nc_woodwork:ladder * nc_woodwork_frame.png^(nc_tree_tree_top.png^[mask:nc_woodwork_ladder_mask.png)
+
+# Wooden Mallet
+nc_woodwork:tool_mallet inventory nc_woodwork_tool_mallet.png
+
+# Wooden Mallet Head
+nc_woodwork:toolhead_mallet inventory nc_woodwork_toolhead_mallet.png
+
+# Wooden Panel
+nc_doors:panel_plank front nc_woodwork_plank.png^nc_doors_hinge_side_base.png^[transformR180
+nc_doors:panel_plank back nc_woodwork_plank.png^(nc_doors_hinge_scuff.png^[opacity:72^[transformR180)
+nc_doors:panel_plank left nc_woodwork_plank.png^(nc_doors_hinge_scuff.png^[opacity:72)
+nc_doors:panel_plank right nc_woodwork_plank.png^nc_doors_hinge_side_base.png^[transformI
+nc_doors:panel_plank bottom nc_woodwork_plank.png^nc_doors_hinge_end_base.png^[transformFX
+nc_doors:panel_plank top nc_woodwork_plank.png^nc_doors_hinge_end_base.png^[transformR180
+
+# Wooden Pick
+nc_woodwork:tool_pick inventory nc_woodwork_tool_pick.png
+
+# Wooden Pick Head
+nc_woodwork:toolhead_pick inventory nc_woodwork_toolhead_pick.png
+
+# Wooden Plank
+nc_woodwork:plank * nc_woodwork_plank.png
+
+# Wooden Rake
+nc_woodwork:rake inventory nc_woodwork_rake.png
+
+# Wooden Shelf
+# <!> MESH DRAWTYPE; FACES MAY MISMATCH NAMES
+nc_woodwork:shelf * nc_woodwork_plank.png^(nc_tree_tree_side.png^[mask:nc_api_storebox_frame.png)
+nc_woodwork:shelf top nc_tree_tree_side.png^[mask:nc_api_storebox_frame.png
+
+# Wooden Spade
+nc_woodwork:tool_spade inventory nc_woodwork_tool_spade.png
+
+# Wooden Spade Head
+nc_woodwork:toolhead_spade inventory nc_woodwork_toolhead_spade.png
+
+# Xrp Charcoal Glyph
+nc_writing:glyph12 * [combine:1x1
+nc_writing:glyph12 top nc_fire_coal_4.png^[mask:nc_writing_glyph_prx.png^[transformFX
+
+# Yellow Bell Flower
+nc_flora:flower_1_4 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#baba00)
+nc_flora:flower_1_4 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#baba00)
+nc_flora:flower_1_4 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_1_base.png^(nc_flora_flower_1_top.png^[multiply:#baba00)
+
+# Yellow Cluster Flower
+nc_flora:flower_4_4 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#baba00)
+nc_flora:flower_4_4 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#baba00)
+nc_flora:flower_4_4 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_4_base.png^(nc_flora_flower_4_top.png^[multiply:#baba00)
+
+# Yellow Cup Flower
+nc_flora:flower_2_4 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#baba00)
+nc_flora:flower_2_4 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#baba00)
+nc_flora:flower_2_4 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_2_base.png^(nc_flora_flower_2_top.png^[multiply:#baba00)
+
+# Yellow Rosette Flower
+nc_flora:flower_3_4 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#baba00)
+nc_flora:flower_3_4 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#baba00)
+nc_flora:flower_3_4 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_3_base.png^(nc_flora_flower_3_top.png^[multiply:#baba00)
+
+# Yellow Star Flower
+nc_flora:flower_5_4 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
+nc_flora:flower_5_4 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
+nc_flora:flower_5_4 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:nc_flora_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
+
+# Yit Charcoal Glyph
+nc_writing:glyph8 * [combine:1x1
+nc_writing:glyph8 top nc_fire_coal_4.png^[mask:nc_writing_glyph_yit.png
+
+# Zin Charcoal Glyph
+nc_writing:glyph4 * [combine:1x1
+nc_writing:glyph4 top nc_fire_coal_4.png^[mask:nc_writing_glyph_niz.png^[transformFX
+
+nc_lux:irradiated inventory [combine:1x1
+nc_lux:irradiated wield [combine:1x1
+
+nc_player_health:injured inventory [combine:1x1
+nc_player_health:injured wield [combine:1x1
+
+nc_player_wield:sel inventory nc_player_wield_sel.png
+
+nc_player_wield:slot inventory nc_player_wield_slot.png
+
+nc_player_yctiwy:taken inventory [combine:1x1
+nc_player_yctiwy:taken wield [combine:1x1# The first identifier needs to match what the game would use, this would be nc_woodwork:rake and not nc_vanillapack_nc_woodwork:rake
+# Other parts need to be in the textures directory of the texturepack (everywheres_nc) and probably should be named everywheres_nc_woodwork_rake.png 
+# or be present on the server which could have the same vanilla names or maybe some other thing.
+#_____________________________________________________________________________________
+
+# Annealed Lode Rake
+nc_lode:rake_annealed inventory nc_lode_annealed.png^[mask:everywheres_nc_lode_rake.png
+
+# Glowing Lode Rake
+nc_lode:rake_hot inventory nc_lode_hot.png^[mask:everywheres_nc_lode_rake.png
+
+# Tempered Lode Rake
+nc_lode:rake_tempered inventory nc_lode_tempered.png^[mask:everywheres_nc_lode_rake.png
+
+# Infused Annealed Lode Rake
+nc_lux:rake_annealed inventory nc_lode_annealed.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:80)
+nc_lux:rake_annealed_boost inventory nc_lode_annealed.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:120)
+
+# Infused Tempered Lode Rake
+nc_lux:rake_tempered inventory nc_lode_tempered.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:80)
+nc_lux:rake_tempered_boost inventory nc_lode_tempered.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:120)
+
+# Wooden Rake
+nc_woodwork:rake inventory everywheres_nc_woodwork_rake.png
+
+# -------------------------------------------------------------------------------------
+
+# Azure Star Flower
+nc_flora:flower_5_6 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+nc_flora:flower_5_6 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+nc_flora:flower_5_6 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+
+# Black Star Flower
+nc_flora:flower_5_9 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+nc_flora:flower_5_9 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+nc_flora:flower_5_9 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+
+# Blue Star Flower
+nc_flora:flower_5_7 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+nc_flora:flower_5_7 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+nc_flora:flower_5_7 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+
+# Orange Star Flower
+nc_flora:flower_5_3 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+nc_flora:flower_5_3 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+nc_flora:flower_5_3 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+
+# Pink Star Flower
+nc_flora:flower_5_1 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+nc_flora:flower_5_1 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+nc_flora:flower_5_1 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+
+# Red Star Flower
+nc_flora:flower_5_2 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#d80000)
+nc_flora:flower_5_2 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#d80000)
+nc_flora:flower_5_2 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#d80000)
+
+# Violet Star Flower
+nc_flora:flower_5_8 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#5900b2)
+nc_flora:flower_5_8 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#5900b2)
+nc_flora:flower_5_8 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#5900b2)
+
+# White Star Flower
+nc_flora:flower_5_5 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+nc_flora:flower_5_5 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+nc_flora:flower_5_5 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+
+# Wilted Star Flower
+nc_flora:flower_5_0 * nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#7b7a64)
+nc_flora:flower_5_0 inventory nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#7b7a64)
+nc_flora:flower_5_0 wield nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#7b7a64)
+
+# Yellow Star Flower
+nc_flora:flower_5_4 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
+nc_flora:flower_5_4 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
+nc_flora:flower_5_4 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:nc_flora_grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)

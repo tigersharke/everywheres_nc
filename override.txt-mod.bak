@@ -1,0 +1,76 @@
+# The first identifier needs to match what the game would use, this would be nc_woodwork:rake and not nc_vanillapack_nc_woodwork:rake
+# Other parts need to be in the textures directory of the texturepack (everywheres_nc) and probably should be named everywheres_nc_woodwork_rake.png 
+# or be present on the server which could have the same vanilla names or maybe some other thing.
+#_____________________________________________________________________________________
+
+# Annealed Lode Rake
+nc_lode:rake_annealed inventory nc_lode_annealed.png^[mask:everywheres_nc_lode_rake.png
+
+# Glowing Lode Rake
+nc_lode:rake_hot inventory nc_lode_hot.png^[mask:everywheres_nc_lode_rake.png
+
+# Tempered Lode Rake
+nc_lode:rake_tempered inventory nc_lode_tempered.png^[mask:everywheres_nc_lode_rake.png
+
+# Infused Annealed Lode Rake
+nc_lux:rake_annealed inventory nc_lode_annealed.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:80)
+nc_lux:rake_annealed_boost inventory nc_lode_annealed.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:120)
+
+# Infused Tempered Lode Rake
+nc_lux:rake_tempered inventory nc_lode_tempered.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:80)
+nc_lux:rake_tempered_boost inventory nc_lode_tempered.png^[mask:everywheres_nc_lode_rake.png^(nc_lux_base.png^[mask:nc_lux_infuse_mask.png^[mask:everywheres_nc_lode_rake.png^[opacity:120)
+
+# Wooden Rake
+nc_woodwork:rake inventory everywheres_nc_woodwork_rake.png
+
+# -------------------------------------------------------------------------------------
+
+# Azure Star Flower
+nc_flora:flower_5_6 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+nc_flora:flower_5_6 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+nc_flora:flower_5_6 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#39849b)
+
+# Black Star Flower
+nc_flora:flower_5_9 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+nc_flora:flower_5_9 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+nc_flora:flower_5_9 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#202020)
+
+# Blue Star Flower
+nc_flora:flower_5_7 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+nc_flora:flower_5_7 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+nc_flora:flower_5_7 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#2424fe)
+
+# Orange Star Flower
+nc_flora:flower_5_3 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+nc_flora:flower_5_3 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+nc_flora:flower_5_3 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#c16100)
+
+# Pink Star Flower
+nc_flora:flower_5_1 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+nc_flora:flower_5_1 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+nc_flora:flower_5_1 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#d23379)
+
+# Red Star Flower
+nc_flora:flower_5_2 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#d80000)
+nc_flora:flower_5_2 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#d80000)
+nc_flora:flower_5_2 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#d80000)
+
+# Violet Star Flower
+nc_flora:flower_5_8 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(everywheres_nc_flower_5_top.png^[multiply:#5900b2)
+nc_flora:flower_5_8 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc_flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#5900b2)
+nc_flora:flower_5_8 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#5900b2)
+
+# White Star Flower
+nc_flora:flower_5_5 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+nc_flora:flower_5_5 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+nc_flora:flower_5_5 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#adadad)
+
+# Wilted Star Flower
+nc_flora:flower_5_0 * nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#7b7a64)
+nc_flora:flower_5_0 inventory nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#7b7a64)
+nc_flora:flower_5_0 wield nc_flora_flower_color_dry.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#7b7a64)
+
+# Yellow Star Flower
+nc_flora:flower_5_4 * nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
+nc_flora:flower_5_4 inventory nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
+nc_flora:flower_5_4 wield nc_flora_flower_color.png^(nc_terrain_grass_top.png^[mask:everywheres_nc__grass_mask.png)^[mask:everywheres_nc__flower_5_base.png^(nc_flora_flower_5_top.png^[multiply:#baba00)
